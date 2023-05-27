@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Entities\" />
+    <None Remove="Entities\Account\" />
+    <None Remove="Entities\Business\" />
+    <None Remove="Entities\Sales\" />
+    <None Remove="Entities\Products\" />
+    <None Remove="Entities\System\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Entities\" />
+    <Folder Include="Entities\Account\" />
+    <Folder Include="Entities\Business\" />
+    <Folder Include="Entities\Sales\" />
+    <Folder Include="Entities\Products\" />
+    <Folder Include="Entities\System\" />
+  </ItemGroup>
+</Project>

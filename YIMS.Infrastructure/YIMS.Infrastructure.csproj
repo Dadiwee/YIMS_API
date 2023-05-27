@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Persistence\" />
+    <None Remove="Caching\" />
+    <None Remove="FileStorage\" />
+    <None Remove="Authorization\" />
+    <None Remove="Logging\" />
+    <None Remove="Messaging\" />
+    <None Remove="Middleware\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Persistence\" />
+    <Folder Include="Caching\" />
+    <Folder Include="FileStorage\" />
+    <Folder Include="Authorization\" />
+    <Folder Include="Logging\" />
+    <Folder Include="Messaging\" />
+    <Folder Include="Middleware\" />
+  </ItemGroup>
+</Project>
